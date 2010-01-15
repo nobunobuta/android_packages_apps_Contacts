@@ -333,7 +333,7 @@
     <string name="summaryoff_all_show_number">"電話番号を表示しない"</string>
     
     <string name="title_misc_category">"その他"</string>
-    <string name="title_sensor_rotation">画面の回転n</string>
+    <string name="title_sensor_rotation">"画面の回転"</string>
     
     <!-- Wysie_Soh: Call log strings -->  
     <string name="alert_clear_call_log_title">"通話履歴の削除"</string>
