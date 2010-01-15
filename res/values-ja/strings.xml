@@ -278,9 +278,9 @@
     <string name="summaryon_cl_ask_before_clear">"通話履歴の消去前に確認をします"</string>
     <string name="summaryoff_cl_ask_before_clear">"通話履歴を確認せずに消去します"</string>
 
-    <string name="title_cl_always_clear_cache">電話番号を記録しない</string>
-    <string name="summaryon_cl_always_clear_cache">常に連絡先の電話番号が連動表示されます</string>
-    <string name="summaryoff_cl_always_clear_cache">高速な履歴表示が可能ですが、連絡先情報との連動は行われません</string>
+    <string name="title_cl_always_clear_cache">"電話番号を記録しない"</string>
+    <string name="summaryon_cl_always_clear_cache">"常に連絡先の電話番号が連動表示されます"</string>
+    <string name="summaryoff_cl_always_clear_cache">"高速な履歴表示が可能ですが、連絡先情報との連動は行われません"</string>
     
     <string name="title_view_cl">Individual call log</string>
     <string name="summary_view_cl">Set preferences when viewing an individual\'s call log</string>
