@@ -282,37 +282,37 @@
     <string name="summaryon_cl_always_clear_cache">"常に連絡先の電話番号が連動表示されます"</string>
     <string name="summaryoff_cl_always_clear_cache">"高速な履歴表示が可能ですが、連絡先情報との連動は行われません"</string>
     
-    <string name="title_view_cl">Individual call log</string>
-    <string name="summary_view_cl">Set preferences when viewing an individual\'s call log</string>
+    <string name="title_view_cl">"通話履歴個別設定"</string>
+    <string name="summary_view_cl">"通話履歴の各行の設定を行います"</string>
     
-    <string name="title_cl_grouping_settings">Group call log settings</string>
-    <string name="title_cl_use_exp_grouping">Group unknown numbers (Experimental)</string>
-    <string name="summary_cl_use_exp_grouping">Attempts to group unsaved numbers together. Affects clearing of logs as well.</string>
-    <string name="title_cl_exp_grouping_num">Number of digits to compare</string>
-    <string name="summary_cl_exp_grouping_num">Higher number = stricter</string>
+    <string name="title_cl_grouping_settings">"通話履歴のグルーピング"</string>
+    <string name="title_cl_use_exp_grouping">"未登録番号のグループ化(Exp)"</string>
+    <string name="summary_cl_use_exp_grouping">"連絡先に未登録の電話番号の通話履歴を一括扱いします。削除時にも一括削除されます"</string>
+    <string name="title_cl_exp_grouping_num">"グループ化する番号桁数"</string>
+    <string name="summary_cl_exp_grouping_num">"指定桁数が一致するものをグループ化します"</string>
     
     <string name="title_contacts_category">"連絡先"</string>
     <string name="title_contacts_show_pic">"アイコンの表示"</string>
     <string name="title_contacts_show_dial_button">"ダイアルボタンの表示"</string>
-    <string name="summary_contacts_show_dial_button">Show a dial button for contacts with numbers</string>
+    <string name="summary_contacts_show_dial_button">電話番号登録済みの連絡先にダイアルボタンを表示します</string>
     <string name="title_contacts_view_pic_size">"アイコンのサイズ"</string>
     <string name="summary_contacts_view_pic_size">Affects Favs as well. Sets size of picture when viewing contact</string>
     <string name="title_contacts_choose_pic_size">"サイズを選択"</string>
     <string name="title_contacts_show_separators">"50音区切りを表示"</string>
     <string name="summaryon_contacts_show_separators">"50音区切りを表示します"</string>
     <string name="summaryoff_contacts_show_separators">"50音区切りを表示しません"</string>
-    <string name="title_auto_show_keyboard">Auto-show virtual keyboard</string>
-    <string name="summary_auto_show_keyboard">Virtual keyboard will be shown upon entering Contacts</string>
-    <string name="title_auto_hide_keyboard">Auto-hide keyboard</string>
-    <string name="summary_auto_hide_keyboard">Virtual keyboard will be hidden upon scrolling</string>
+    <string name="title_auto_show_keyboard">キーパッド自動表示</string>
+    <string name="summary_auto_show_keyboard">連絡先一覧表示時に自動的にキーパッドを表示します</string>
+    <string name="title_auto_hide_keyboard">キーパッド自動非表示</string>
+    <string name="summary_auto_hide_keyboard">連絡先一覧スクロール時に自動的にキーパッドを隠します</string>
     <string name="title_view_contact">"連絡先詳細表示"</string>
     <string name="summary_view_contact">連絡詳細画面の設定</string>
     <string name="title_show_text_mobile_only">SMSアクションの対象</string>
     <string name="summaryon_show_text_mobile_only">"携帯番号のみにSMSを可能にする。</string>
     <string name="summaryoff_show_text_mobile_only">すべての電話番号へのSMSを可能にする。</string>
     
-    <string name="groups_manager_title">"グループの設定"</string>
-    <string name="groups_manager_summary">Set preferences in groups manager</string>
+    <string name="groups_manager_title">"グループ管理"</string>
+    <string name="groups_manager_summary">"グループ管理の環境設定"</string>
     <string name="title_groups_ask_before_del">"削除する前に確認"</string>
     <string name="summaryon_groups_ask_before_del">"グループを削除する前に確認します"</string>
     <string name="summaryoff_groups_ask_before_del">"グループを確認せずに削除します"</string>
@@ -333,19 +333,11 @@
     <string name="summaryoff_all_show_number">"電話番号を表示しない"</string>
     
     <string name="title_misc_category">"その他"</string>
-    <string name="title_sensor_rotation">Enable sensor rotation</string>
-    
-    <string name="title_about">About</string>
-    <string name="title_about_name">Mod Name</string>
-    <string name="summary_about_name">Wysie Contacts</string>
-    <string name="title_about_version">Version</string>
-    <string name="summary_about_version">2.8</string>
-    <string name="title_about_credits">Credits</string>
-    <string name="summary_about_credits">ChainsDD, geesun, niuchl, rac2030 and the rest of XDA! :)</string>
+    <string name="title_sensor_rotation">画面の回転n</string>
     
     <!-- Wysie_Soh: Call log strings -->  
-    <string name="alert_clear_call_log_title">Clear call log</string>
-    <string name="alert_clear_call_log_message">Are you sure you want to clear all call records?</string>
+    <string name="alert_clear_call_log_title">"通話履歴の削除"</string>
+    <string name="alert_clear_call_log_message">"すべての通話履歴を削除します"</string>
     <string name="menu_cl_clear_type">"%sの履歴を削除"</string>
     
     <string name="alert_clear_cl_person">"%sへの通話履歴を削除します"</string>
@@ -371,7 +363,7 @@
     <string name="help_title">"使い方"</string>
     <string name="help_message">"編集したいグループを長押ししてください。新しいグループを作成するには、メニューボタンを押してください。"</string>
     
-    <string name="title_groups_manager">"グループの管理"</string>    
+    <string name="title_groups_manager">"グループ管理"</string>    
     <string name="option_create_group">"グループの作成"</string>
     <string name="alert_create_group_message">"グループ名"</string>    
     <string name="context_rename_group">"グループ名を編集"</string>
@@ -381,10 +373,11 @@
     
     <!-- Wysie_Soh: Others -->
     <!-- Toast for call detail screen when couldn't read the requested details -->
-    <string name="toast_call_detail_error_wysie">No such contact or no call log found for the requested number</string>
-    <string name="menu_copy_string">Copy \"%s\"</string>
-    <string name="cl_total_cl">Total Duration</string>
+    <string name="toast_call_detail_error_wysie">"指定された番号の連絡先や通話履歴は存在しません"</string>
+    <string name="menu_copy_string">"%s\をコピー"</string>
+    <string name="cl_total_cl">"合計通話時間"</string>
 
+    <!-- Nobunobuta Others -->
     <string name="menu_copyContactSim">"SIMにコピー"</string>
     <string name="menu_deleteContactSim">"SIMから削除"</string>
     <string name="menu_saveSim">"SIMに保存"</string>
