@@ -224,4 +224,170 @@
     <string name="fail_reason_could_not_open_file" msgid="4013520943128739511">"\"<xliff:g id="FILE_NAME">%s</xliff:g>\"を開けませんでした: <xliff:g id="EXACT_REASON">%s</xliff:g>"</string>
     <string name="exporting_contact_list_progress" msgid="560522409559101193">"<xliff:g id="CURRENT_NUMBER">%s</xliff:g>/<xliff:g id="TOTAL_NUMBER">%s</xliff:g>件のファイル"</string>
     <string name="search_settings_description" msgid="2675223022992445813">"連絡先の名前"</string>
+
+    <!-- Wysie_Soh: Contacts menu (across all 4, ie. Dialer, Contacts, Call log, Favourites -->    
+    <string name="menu_preferences">"設定"</string>
+    <string name="contacts_manage_groups">"グループの設定"</string>
+    
+    <string name="menu_show_all">"全グループを表示"</string>
+    <string name="menu_show_contacts_phones">"電話番号のある連絡先を表示"</string>
+    
+    <!-- Wysie_Soh: Dialer menu -->
+    <string name="dialer_menu_sms">"SMS"</string>
+    
+    <!-- Wysie_Soh: Call log menu -->
+    <string name="call_log_menu_total_duration">"合計通話時間"</string>
+    
+    <!-- Wysie_Soh: Total incoming/outgoing dialog -->
+    <string name="totalcalllog">"合計通話時間"</string>
+    <string name="total_incoming">"着信通話時間"</string>
+    <string name="total_outgoing">"発信通話時間"</string>
+    <string name="total_button_ok">Ok</string>
+    
+    <!-- Favourites menu -->
+    <string name="fav_clear_freq">"よく使う連絡先を削除"</string>
+    
+    <!-- Wysie_Soh: Preferences strings (based on ChainsDD's code) -->
+    <string name="title_dialer_category">"電話"</string>
+    <string name="title_vm_button">"左アクションボタン"</string>
+    <string name="title_vm_handler">"ボイスメール機能設定"</string>
+    <string name="title_disable_num_check">"数字キーチェックを無効化"</string>
+    <string name="summaryon_disable_num_check">"数字キーを先に押さないと左アクションボタンは無効"</string>
+    <string name="summaryoff_disable_num_check">"数字キーを先に押さなくても左アクションボタンは有効"</string>
+    <string name="title_use_1_for_reg_vm">"１キー長押しの動作"</string>
+    <string name="summaryon_use_1_for_reg_vm">"1キー長押しで標準のボイスメール機能起動"</string>
+    <string name="summaryoff_use_1_for_reg_vm">"1キー長押しで上記指定のボイスメール機能起動"</string>
+    <string name="title_enable_haptic_feedback">"キー操作バイブ"</string>
+
+    <string name="title_digits_color_unselected">"数字キーの色"</string>
+    <string name="title_digits_color_focused">"数字キーの色（フォーカス)"</string>
+    <string name="title_digits_color_pressed">"数字キーの色（選択)"</string>
+    <string name="title_choose_color">"色を選択"</string>
+    <string name="title_use_custom_color">"数字で色を指定"</string>
+    <string name="summaryon_custom_color">"#RRGGBB または #AARRGGBB"</string>
+    
+    <string name="title_change_digits_color">"数字キーの色変更"</string>
+    
+    <string name="title_call_log_category">"通話履歴"</string>
+    <string name="title_cl_relative_time">"相対時間表示"</string>
+    <string name="summaryon_cl_relative_time">"通話履歴を相対時間で表示"</string>
+    <string name="summaryoff_cl_relative_time">"通話履歴を日時で表示"</string>
+    <string name="title_cl_show_seconds">"秒表示"</string>
+    <string name="summary_cl_show_seconds">"通話履歴に秒まで表示する"</string>
+    <string name="title_cl_ask_before_clear">"消去前に確認"</string>
+    <string name="summaryon_cl_ask_before_clear">"通話履歴の消去前に確認をします"</string>
+    <string name="summaryoff_cl_ask_before_clear">"通話履歴を確認せずに消去します"</string>
+
+    <string name="title_cl_always_clear_cache">"電話番号を記録しない"</string>
+    <string name="summaryon_cl_always_clear_cache">"常に連絡先の電話番号が連動表示されます"</string>
+    <string name="summaryoff_cl_always_clear_cache">"高速な履歴表示が可能ですが、連絡先情報との連動は行われません"</string>
+    
+    <string name="title_view_cl">"通話履歴個別設定"</string>
+    <string name="summary_view_cl">"通話履歴の各行の設定を行います"</string>
+    
+    <string name="title_cl_grouping_settings">"通話履歴のグルーピング"</string>
+    <string name="title_cl_use_exp_grouping">"未登録番号のグループ化(Exp)"</string>
+    <string name="summary_cl_use_exp_grouping">"連絡先に未登録の電話番号の通話履歴を一括扱いします。削除時にも一括削除されます"</string>
+    <string name="title_cl_exp_grouping_num">"グループ化する番号桁数"</string>
+    <string name="summary_cl_exp_grouping_num">"指定桁数が一致するものをグループ化します"</string>
+    
+    <string name="title_contacts_category">"連絡先"</string>
+    <string name="title_contacts_show_pic">"アイコンの表示"</string>
+    <string name="title_contacts_show_dial_button">"ダイアルボタンの表示"</string>
+    <string name="summary_contacts_show_dial_button">電話番号登録済みの連絡先にダイアルボタンを表示します</string>
+    <string name="title_contacts_view_pic_size">"アイコンのサイズ"</string>
+    <string name="summary_contacts_view_pic_size">Affects Favs as well. Sets size of picture when viewing contact</string>
+    <string name="title_contacts_choose_pic_size">"サイズを選択"</string>
+    <string name="title_contacts_show_separators">"50音区切りを表示"</string>
+    <string name="summaryon_contacts_show_separators">"50音区切りを表示します"</string>
+    <string name="summaryoff_contacts_show_separators">"50音区切りを表示しません"</string>
+    <string name="title_auto_show_keyboard">キーパッド自動表示</string>
+    <string name="summary_auto_show_keyboard">連絡先一覧表示時に自動的にキーパッドを表示します</string>
+    <string name="title_auto_hide_keyboard">キーパッド自動非表示</string>
+    <string name="summary_auto_hide_keyboard">連絡先一覧スクロール時に自動的にキーパッドを隠します</string>
+    <string name="title_view_contact">"連絡先詳細表示"</string>
+    <string name="summary_view_contact">連絡詳細画面の設定</string>
+    <string name="title_show_text_mobile_only">SMSアクションの対象</string>
+    <string name="summaryon_show_text_mobile_only">"携帯番号のみにSMSを可能にする。</string>
+    <string name="summaryoff_show_text_mobile_only">すべての電話番号へのSMSを可能にする。</string>
+    
+    <string name="groups_manager_title">"グループ管理"</string>
+    <string name="groups_manager_summary">"グループ管理の環境設定"</string>
+    <string name="title_groups_ask_before_del">"削除する前に確認"</string>
+    <string name="summaryon_groups_ask_before_del">"グループを削除する前に確認します"</string>
+    <string name="summaryoff_groups_ask_before_del">"グループを確認せずに削除します"</string>
+    
+    <string name="title_favourites_category">"お気に入り"</string>
+    <string name="title_favourites_hide_freq_call">"よく使う連絡先を表示しない"</string>
+    <string name="summary_favourites_hide_freq_call">"よく使う連絡先をお気に入り一覧に含めません"</string>
+    <string name="title_favs_ask_before_clear">"削除する前に確認"</string>
+    <string name="summaryon_favs_ask_before_clear">"お気に入りを削除する前に確認します"</string>
+    <string name="summaryoff_favs_ask_before_clear">"お気に入りを確認せずに削除します"</string>
+    
+    <string name="title_all_show_label">"ラベルを表示"</string>
+    <string name="summaryon_all_show_label">"ラベルを表示する"</string>
+    <string name="summaryoff_all_show_label">"ラベルを表示しない"</string>
+    
+    <string name="title_all_show_number">"電話番号を表示"</string>
+    <string name="summaryon_all_show_number">"電話番号を表示する"</string>
+    <string name="summaryoff_all_show_number">"電話番号を表示しない"</string>
+    
+    <string name="title_misc_category">"その他"</string>
+    <string name="title_sensor_rotation">"画面の回転"</string>
+    
+    <!-- Wysie_Soh: Call log strings -->  
+    <string name="alert_clear_call_log_title">"通話履歴の削除"</string>
+    <string name="alert_clear_call_log_message">"すべての通話履歴を削除します"</string>
+    <string name="menu_cl_clear_type">"%sの履歴を削除"</string>
+    
+    <string name="alert_clear_cl_person">"%sへの通話履歴を削除します"</string>
+    <string name="alert_clear_cl_person_incoming">"%sからの着信履歴を削除します"</string>
+    <string name="alert_clear_cl_person_outgoing">"%sへの発信履歴を削除します"</string>
+    <string name="alert_clear_cl_person_missed">"%sの不在着信履歴を削除します"</string>
+    
+    <string name="alert_clear_cl_all_incoming">"すべての着信履歴を削除します"</string>
+    <string name="alert_clear_cl_all_outgoing">"すべての着信履歴を削除します"</string>
+    <string name="alert_clear_cl_all_missed">"すべての不在着信履歴を削除します"</string>
+    
+    <!-- Wysie_Soh: Frequently called strings -->
+    <string name="alert_clear_freq_called">"よく使う連絡先の削除"</string>
+    <string name="alert_clear_freq_called_msg">"よく使う連絡先を削除します"</string>
+    
+    <!-- Wysie_Soh: View contact strings -->
+    <string name="view_contact_navigate">"経路"</string>
+    <string name="view_contact_groups">"グループ"</string>
+    <string name="view_call_log">"履歴表示"</string>
+    <string name="view_contact_select_cl_number">Select number to view log</string>
+    
+    <!-- Wysie_Soh: Groups management -->
+    <string name="help_title">"使い方"</string>
+    <string name="help_message">"編集したいグループを長押ししてください。新しいグループを作成するには、メニューボタンを押してください。"</string>
+    
+    <string name="title_groups_manager">"グループ管理"</string>    
+    <string name="option_create_group">"グループの作成"</string>
+    <string name="alert_create_group_message">"グループ名"</string>    
+    <string name="context_rename_group">"グループ名を編集"</string>
+    <string name="context_delete_group">"グループの削除"</string>
+    <string name="alert_rename_group_message">"新しいグループ名"</string>
+    <string name="alert_delete_group_message">"グループを削除します"</string>
+    
+    <!-- Wysie_Soh: Others -->
+    <!-- Toast for call detail screen when couldn't read the requested details -->
+    <string name="toast_call_detail_error_wysie">"指定された番号の連絡先や通話履歴は存在しません"</string>
+    <string name="menu_copy_string">"%s\をコピー"</string>
+    <string name="cl_total_cl">"合計通話時間"</string>
+
+    <!-- Nobunobuta Others -->
+    <string name="menu_copyContactSim">"SIMにコピー"</string>
+    <string name="menu_deleteContactSim">"SIMから削除"</string>
+    <string name="menu_saveSim">"SIMに保存"</string>
+    <string name="save_to_sim_done">"SIMに名前と電話番号が保存されました"</string>
+    <string name="sim_entry_null">"名前か電話番号が空白です"</string>
+    <string name="save_to_sim_failed">"SIMに保存できませんでした"</string>
+    <string name="listSeparatorNaviAddress">"経路"</string>
+    <string name="listSeparatorGroup">"グループ"</string>
+    <string name="recentCalls_deleteAllIncoming">"着信履歴を消去"</string>
+    <string name="recentCalls_deleteAllOutgoing">"発信履歴を消去"</string>
+    <string name="recentCalls_deleteAllMissed">"不在着信を消去"</string>
+    <string name="actionNav">"<xliff:g id="TYPE">%s</xliff:g>への経路"</string>
 </resources>
