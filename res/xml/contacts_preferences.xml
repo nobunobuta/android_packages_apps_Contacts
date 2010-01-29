@@ -29,6 +29,7 @@
             android:key="vm_handler"
             android:title="@string/title_vm_handler"
             android:dialogTitle="@string/title_vm_handler"
+            android:entries="@array/entries_vm_handler"
             android:entryValues="@array/entryvalues_numbers"
             android:defaultValue="0" />
         <CheckBoxPreference

@@ -40,6 +40,7 @@ import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.os.SystemClock;
 import android.os.Vibrator;
+import android.preference.PreferenceManager;
 import android.provider.Contacts.Intents.Insert;
 import android.provider.Contacts.People;
 import android.provider.Contacts.Phones;
@@ -66,6 +67,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -91,6 +93,8 @@ public class TwelveKeyDialer extends Activity implements View.OnClickListener,
     
     /** The DTMF tone volume relative to other sounds in the stream */
     private static final int TONE_RELATIVE_VOLUME = 50;
+
+    public static final int INSERT_ID = Menu.FIRST;
 
     private EditText mDigits;
     private MenuItem mAddToContactMenuItem, mSmsMenuItem, mPreferences;
@@ -796,8 +800,16 @@ public class TwelveKeyDialer extends Activity implements View.OnClickListener,
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
         }
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
         mDigits.getText().clear();
-        finish();
+    }
+
+    void addContact() {
+        Intent intent = new Intent(Intent.ACTION_INSERT_OR_EDIT);
+        intent.putExtra(Insert.PHONE, mDigits.getText());
+        intent.setType(People.CONTENT_ITEM_TYPE);
+        startActivity(intent);
     }
     */
     
