@@ -16,7 +16,8 @@
 
 package com.android.contacts;
 
-
+import android.app.ListActivity;
+import android.app.AlertDialog;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -55,6 +56,7 @@ import android.telephony.TelephonyManager;
 import android.text.format.DateFormat;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
+import android.text.format.DateFormat;
 import android.text.format.DateUtils;
 import android.util.Log;
 import android.util.SparseArray;
@@ -1303,6 +1305,8 @@ public class RecentCallsListActivity extends ListActivity
         else {
             menu.add(0, MENU_ITEM_DELETE_ALL_NUMBER, 0, getString(R.string.menu_cl_clear_type, number));
         }
+        
+        menu.add(0, MENU_ITEM_DELETE_ALL_NUMBER, 0, getString(R.string.recentCalls_removeAllFrom) + number);
     }
 
     @Override

@@ -37,6 +37,7 @@ import android.widget.TabHost;
 import com.android.internal.telephony.ITelephony;
 import android.content.pm.ActivityInfo;
 
+
 /**
  * The dialer activity that has one tab with the virtual 12key dialer,
  * and another tab with recent calls in it. This is the container and the tabs
@@ -70,6 +71,8 @@ public class DialtactsActivity extends TabActivity implements TabHost.OnTabChang
         super.onCreate(icicle);
         
         prefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+
+        PreferenceManager.setDefaultValues(this, R.xml.contacts_preferences, false);
 
         final Intent intent = getIntent();
         fixIntent(intent);

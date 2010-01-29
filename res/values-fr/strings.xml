@@ -40,6 +40,7 @@
     <string name="menu_showBarcode" msgid="309973637178814132">"Afficher le code-barres"</string>
     <string name="menu_editContact" msgid="3452858480713561396">"Modifier le contact"</string>
     <string name="menu_deleteContact" msgid="1916555454274101750">"Supprimer le contact"</string>
+    <string name="menu_copyContactSim">Copier sur SIM</string>
     <string name="menu_call" msgid="7359207953236681606">"Appel"</string>
     <string name="menu_sendSMS" msgid="5917289601666766617">"Envoyer un SMS/MMS"</string>
     <string name="menu_sendEmail" msgid="7293508859242926187">"Envoyer un e-mail"</string>
@@ -112,6 +113,7 @@
     <string name="listSeparatorOrganizations" msgid="7514083358440762504">"Organisations"</string>
     <string name="listSeparatorOtherInformation" msgid="7844959649638482329">"Autres informations"</string>
     <string name="listSeparatorOtherInformation_edit" msgid="1326921768011367750">"Autres options"</string>
+    <string name="listSeparatorGroup">Groupe(s)</string>
     <string name="listSeparatorMore_edit" msgid="858454837482243176">"Plus"</string>
     <string name="contactsIconLabel" msgid="7666609097606552806">"Contacts"</string>
     <string name="contactsFavoritesLabel" msgid="8417039765586853670">"Favoris"</string>
@@ -224,4 +226,89 @@
     <string name="fail_reason_could_not_open_file" msgid="4013520943128739511">"Impossible d\'ouvrir \"<xliff:g id="FILE_NAME">%s</xliff:g>\" : <xliff:g id="EXACT_REASON">%s</xliff:g>"</string>
     <string name="exporting_contact_list_progress" msgid="560522409559101193">"<xliff:g id="CURRENT_NUMBER">%s</xliff:g> sur <xliff:g id="TOTAL_NUMBER">%s</xliff:g> contacts"</string>
     <string name="search_settings_description" msgid="2675223022992445813">"Noms de vos contacts"</string>
+
+    <!-- Wysie_Soh: Contacts menu (across all 4, ie. Dialer, Contacts, Call log, Favourites -->    
+    <string name="menu_preferences">Préférences</string>
+
+    <!-- Wysie_Soh: Dialer menu -->
+    <string name="dialer_menu_sms">SMS/MMS</string>
+
+    <!-- Wysie_Soh: Call log menu -->
+    <string name="call_log_menu_total_duration">Totaux d\'utilisation</string>
+
+    <!-- Wysie_Soh: Total incoming/outgoing dialog -->
+    <string name="totalcalllog">Durée totale des appels</string>
+    <string name="total_incoming">Entrants</string>
+    <string name="total_outgoing">Sortants</string>
+    <string name="total_button_ok">Fermer</string>
+
+    <!-- Favourites menu -->
+    <string name="fav_clear_freq">Vider fréq. appelés</string>
+
+    <!-- Wysie_Soh: Preferences strings (based on ChainsDD's code) -->
+    <string name="title_dialer_category">Menu Appeler</string>
+    <string name="title_vm_button">Bouton d\'action gauche</string>    
+    <string name="title_vm_handler">Application de messagerie vocale</string>
+    <string name="title_disable_num_check">Désactiver la vérif. du numéro</string>
+    <string name="summaryon_disable_num_check">Le bouton d\'action et le menu seront toujours activés</string>
+    <string name="summaryoff_disable_num_check">Le bouton d\'action et le menu seront activés si un numéro est entré (sauf mess. voc.)</string>
+    <string name="title_digits_color_unselected">Couleur des chiffres non-sélectionnés</string>
+    <string name="title_digits_color_focused">Couleur des chiffres ciblés</string>
+    <string name="title_digits_color_pressed">Couleur des chiffres appuyés</string>
+    <string name="title_choose_color">Choisissez une couleur</string>
+    <string name="title_use_custom_color">Utiliser des couleurs personnalisées</string>
+    <string name="summaryon_custom_color">Formats supportés : #RRGGBB ou #AARRGGBB. Insérez le #.</string>
+
+    <string name="title_change_digits_color">Changer la couleur des chiffres</string>
+
+    <string name="title_call_log_category">Journal d\'appels</string>    
+    <string name="title_cl_relative_time">Temps relatifs</string>
+    <string name="summaryon_cl_relative_time">Utiliser des temps relatifs dans le journal</string>
+    <string name="summaryoff_cl_relative_time">Utiliser des temps exacts dans le journal</string>
+    <string name="title_cl_show_seconds">Montrer les secondes</string>
+    <string name="summary_cl_show_seconds">Montrer les secondes avec les temps exacts</string>          
+    <string name="title_cl_ask_before_clear">Confirmer avant de vider</string>
+    <string name="summaryon_cl_ask_before_clear">Confirmer avant de vider le journal</string>
+    <string name="summaryoff_cl_ask_before_clear">Le journal sera vidé sans confirmation</string>
+
+    <string name="title_contacts_category">Contacts</string>
+    <string name="title_contacts_show_pic">Montrer les images des contacts</string>
+    <string name="summary_contacts_show_pic">Affecte les favoris. Redémarrez Contacts/Appeler pour appliquer les changements</string>
+    <string name="title_contacts_show_dial_button">Montrer le bouton d\'appel</string>
+    <string name="summary_contacts_show_dial_button">Montrer un bouton appeler pour les contacts avec des numéros</string>
+    <string name="title_contacts_view_pic_size">Taille de l\'image des contacts</string>
+    <string name="summary_contacts_view_pic_size">Affecte les favoris. Définit la taille de l\'image des contacts</string>
+    <string name="title_contacts_choose_pic_size">Choisir une taille</string>
+
+    <string name="title_favourites_category">Favoris</string>
+    <string name="title_favourites_hide_freq_call">Cacher fréquemment appelés</string>
+    <string name="summary_favourites_hide_freq_call">Les données sont cachées et non vidées</string>
+    <string name="title_favs_ask_before_clear">Confirmer avant de vider</string>
+    <string name="summaryon_favs_ask_before_clear">Confirmer avant de vider la liste des appels fréquents</string>
+    <string name="summaryoff_favs_ask_before_clear">La liste des appels fréquents sera vidée sans confirmation</string>    
+
+    <string name="title_misc_category">Divers</string>
+    <string name="title_sensor_rotation">Activer la rotation à l\'écran</string>
+
+    <string name="title_about">À propos</string>
+    <string name="title_about_name">Nom de la modification</string>
+    <string name="summary_about_name">Wysie Contacts</string>
+    <string name="title_about_version">Version</string>
+    <string name="summary_about_version">1.94</string>
+    <string name="title_about_credits">Crédits</string>
+    <string name="summary_about_credits">ChainsDD et le reste de XDA! :)</string>
+
+    <string name="alert_clear_call_log_title">Vider le journal d\'appels</string>
+    <string name="alert_clear_call_log_message">Êtes-vous sûr de vouloir vider la liste d\'appels ?</string>
+    <string name="alert_clear_freq_called">Vider fréquemment appelés</string>
+    <string name="alert_clear_freq_called_msg">Êtes-vous sûr de vouloir vider la liste des numéros fréquemment appelés ?</string>
+    <string name="view_contact_navigate">Aller à</string>
+    <string name="view_contact_groups">Groupes</string>
+    <string name="title_contacts_show_separators">Montrer les séparateurs alphabétiques</string>
+    <string name="summaryon_contacts_show_separators">Les séparateurs alphabétiques seront montrés dans la liste des contacts</string>
+    <string name="summaryoff_contacts_show_separators">Les séparateurs alphabétiques seront cachés dans la liste des contacts</string>
+    <string name="title_use_1_for_reg_vm">Touche 1 pour mess. voc. par défaut</string>
+    <string name="summaryon_use_1_for_reg_vm">Touche 1 sera utilisée pour la mess. vocale par défaut</string>
+    <string name="summaryoff_use_1_for_reg_vm">Touche 1 sera suivie par l\'application de mess. vocale personnalisée</string>
+    <string name="recentCalls_removeAllFrom">Suppr. tous de </string>
 </resources>
