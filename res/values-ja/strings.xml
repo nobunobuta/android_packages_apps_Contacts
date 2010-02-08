@@ -394,6 +394,6 @@
     <!-- Wysie_Soh: Date String Format by Nobunobuta -->
     <string name="format_24hour_seconds">"M月d日 kk:mm:ss"</string>    
     <string name="format_24hour">"M月d日 kk:mm"</string>    
-    <string name="format_12hour_seconds">"M月d日 aah:mm:ss"</string>    
-    <string name="format_12hour">"M月d日 aah:mm"</string>    
+    <string name="format_12hour_seconds">"M月d日 h:mm:ss aa"</string>    
+    <string name="format_12hour">"M月d日 aah:mm aa"</string>    
 </resources>
