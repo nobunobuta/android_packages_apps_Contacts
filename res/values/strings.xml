@@ -904,10 +904,15 @@
     <string name="alert_rename_group_message">Enter new group name</string>
     <string name="alert_delete_group_message">Are you sure you want to delete?</string>
     
-    <!-- Wysie_Soh: Others -->
     <!-- Toast for call detail screen when couldn't read the requested details -->
     <string name="toast_call_detail_error_wysie">No such contact or no call log found for the requested number</string>
     <string name="menu_copy_string">Copy \"%s\"</string>
     <string name="cl_total_cl">Total Duration</string>
+    
+    <!-- Wysie_Soh: Date String Format by Nobunobuta -->
+    <string name="format_24hour_seconds">"MMM d, kk:mm:ss"</string>    
+    <string name="format_24hour">"MMM d, kk:mm"</string>    
+    <string name="format_12hour_seconds">"MMM d, h:mm:ssaa"</string>    
+    <string name="format_12hour">"MMM d, h:mmaa"</string>    
     
 </resources>

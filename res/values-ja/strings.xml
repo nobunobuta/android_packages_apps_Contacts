@@ -390,4 +390,10 @@
     <string name="recentCalls_deleteAllOutgoing">"発信履歴を消去"</string>
     <string name="recentCalls_deleteAllMissed">"不在着信を消去"</string>
     <string name="actionNav">"<xliff:g id="TYPE">%s</xliff:g>への経路"</string>
+
+    <!-- Wysie_Soh: Date String Format by Nobunobuta -->
+    <string name="format_24hour_seconds">"M月d日 kk:mm:ss"</string>    
+    <string name="format_24hour">"M月d日 kk:mm"</string>    
+    <string name="format_12hour_seconds">"M月d日 aah:mm:ss"</string>    
+    <string name="format_12hour">"M月d日 aah:mm"</string>    
 </resources>

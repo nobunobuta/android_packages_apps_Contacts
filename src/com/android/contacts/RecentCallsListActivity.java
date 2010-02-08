@@ -706,15 +706,15 @@ public class RecentCallsListActivity extends ListActivity
 
                 if (is24hour) {
                     if (showSeconds) {
-                        format = format24HourSeconds;
+                        format = getString(R.string.format_24hour_seconds);
                     } else {
-                        format = format24Hour;
+                        format = getString(R.string.format_24hour);
                     }
                 } else {
                     if (showSeconds) {
-                        format = format12HourSeconds;
+                        format = getString(R.string.format_12hour_seconds);
                     } else {
-                        format = format12Hour;
+                        format = getString(R.string.format_12hour);
                     }                  	
                 }
                 
@@ -1758,9 +1758,7 @@ public class RecentCallsListActivity extends ListActivity
     private String formatSecToMin(int s) {
         int min = s / 60;
         int sec = s % 60;
-        String res = min + " mins " + sec + " secs";
-
-        return res;
+        return getString(R.string.callDetailsDurationFormat, min, sec);
     }
     
     private void calcTotalTime() {
